@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1,CV F1 (mean),CV F1 (std),Train time (s)
+Linear SVM,0.8595,0.8445,0.8824,0.863,,,3.1389
+Logistic Regression,0.8595,0.8458,0.8804,0.8627,,,2.8877
+MLP (Neural Net),0.8565,0.8482,0.8694,0.8587,,,88.1388
+Naive Bayes,0.845,0.8341,0.8624,0.848,,,3.0999
+Random Forest,0.816,0.805,0.8355,0.82,,,1.4274

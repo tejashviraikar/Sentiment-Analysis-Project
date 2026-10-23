@@ -1,0 +1,4 @@
+Features,Accuracy
+Bag of Words (unigram),0.8375
+TF-IDF (unigram),0.854
+TF-IDF (uni+bigram),0.8585
