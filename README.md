@@ -1,4 +1,4 @@
-# Sentiment Analysis of Movie Reviews: ML Mini Project
+# Sentiment Analysis of Movie Reviews: ML Project
 
 Classifies IMDB reviews as positive or negative. Compares feature representations and five models
 (classical ML + neural network), with evaluation, error analysis and a Streamlit demo.
@@ -9,9 +9,6 @@ Classifies IMDB reviews as positive or negative. Compares feature representation
 pip install -r requirements.txt
 ```
 
-1. Download **IMDB Dataset of 50K Movie Reviews** from Kaggle (`lakshmi25npathi/imdb-dataset-of-50k-movie-reviews`).
-2. Save it as `data/IMDB Dataset.csv` (columns: `review`, `sentiment`).
-
 ## Run
 
 ```bash
@@ -21,8 +18,6 @@ python src/train.py --skip-rf    # skip the slowest model (Random Forest)
 streamlit run src/app.py         # web demo
 python src/train_lstm.py --sample 20000     # optional LSTM (needs tensorflow)
 ```
-
-Without the CSV, `train.py` uses a tiny synthetic dataset just to prove the code runs. Those numbers are meaningless.
 
 ## Pipeline
 
